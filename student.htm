@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>handlebars test</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body>
+    <main>
+
+
+<h1>Student</h1>
+<div class="test">
+
+</div>
+    <div class="container"></div>
+
+    <script id="template" type="text/x-handlebars-template">
+       <!-- <p>{{ student.[0].fname }} {{ student.[0].lname }}</p> -->
+
+
+
+      {{#each student}}
+      <div class="card">
+      <div>
+        <p class="name">{{ fname }} {{ lname }} ({{ sid }}) L{{ level }} Y{{ year }} Group {{ group }}</p>
+        <ul>{{#grades}}
+            <li>Unit 1: {{this.unit1}}</li>
+            <li>Unit 2: {{this.unit2}}</li>
+            <li>Unit 3: {{this.unit3}}</li>
+            <li>Unit 4: {{this.unit4}}</li>
+        {{/grades}}</ul>
+    </div>
+
+      </div>
+      {{/each}}
+<button type="button" name="button" class='btn'>Edit</button>
+    </script>
+
+
+
+<script src="js/firebaseconfig.js" ></script>
+<script type="text/javascript">
+
+$( document ).ready(function() {
+  var ref = db.ref("students");
+  var jsondata = "";
+  var template = $("#template").html();
+  var compiled = Handlebars.compile(template);
+  const params = new URLSearchParams(window.location.search);
+  var sid = params.get('sid'); //console.log(sid);
+
+  ref.orderByChild('sid').equalTo(sid).on("value", function(snapshot){
+
+      var data = {"student": snapshot.val() };
+
+      // var data = {
+      //       student: {
+      //         0: {
+      //             fname: "Yehuda",
+      //           }
+      // //       },
+      //     };
+
+      console.log(data);
+      var render = compiled(data);
+      $(".container").html(render);
+  });
+
+});
+
+</script>
+
+</main>
+  </body>
+</html>

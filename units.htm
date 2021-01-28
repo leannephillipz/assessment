@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>handlebars test</title>
+      <link rel="stylesheet" href="/css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body>
+    <main>
+
+
+<h1>Units</h1>
+    <div class="container"></div>
+
+    <script id="template" type="text/x-handlebars-template">
+      {{#each units}}
+      <div class="card">
+      <div>
+        <p>{{ unit }}</p>
+        <ul>{{#items}}
+            <li>{{unit}} {{criteria}}</li>
+        {{/items}}</ul>
+    </div>
+      </div>
+      {{/each}}
+
+    </script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+var jsondata = "";
+var template = $("#template").html();
+var compiled = Handlebars.compile(template);
+// const params = new URLSearchParams(window.location.search);
+// var useid = params.get('id');
+
+fetch('/data/units.json')
+  .then(function(response) {
+  return response.json();
+  })
+  .then(function (data) {
+    console.log(data)
+    jsondata = data;
+    var render = compiled(jsondata);
+    $(".container").html(render);
+  })
+});
+</script>
+<!-- <script src="script.js" ></script> -->
+
+</main>
+  </body>
+</html>

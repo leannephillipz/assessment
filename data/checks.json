@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "Missing": "Completely missing"
+    },
+    {
+      "Incomplete": "Some parts are missing"
+    },
+    {
+      "Illegible": "Cannot read what has been submitted"
+    },
+    {
+      "Late": "Not competed on time"
+    },
+    {
+      "English": "Spelling, Grammar and punctuation"
+    },
+    {
+      "NoAccess": "Cannot view due to sharing permissions error"
+    },
+    {
+      "NoAnnotations": "Annotations are Completely missing"
+    },
+    {
+      "No detail": "Annotations lack in detail"
+    }
+  ]
+}

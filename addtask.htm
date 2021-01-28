@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>handlebars test</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+  </head>
+  <body>
+    <main>
+
+
+<h1>Add Student</h1>
+    <div class="container">
+      <form class="addtask" >
+        <label for="name">Number</label>
+        <input type="text" name="number" value="" class="number" required>
+        <label for="name">Title</label>
+        <input type="text" name="title" value="" required>
+        <label for="note">Description</label>
+        <textarea name="desc" rows="8" cols="80" class="note"></textarea>
+        <label for="name">Item</label>
+        <input type="text" name="item" value="" crequired>
+        <label for="name">ID</label>
+        <input type="text" name="itemid" value="3" required>
+        <label for="name">Item Title</label>
+        <input type="text" name="itemname" value="" required>
+        <label for="name">Item Description</label>
+        <textarea name="itemdesc" rows="8" cols="80" class="note"></textarea>
+        <input type="submit" name="" value="Add">
+      </form>
+      <div class="feedback">
+        <p>Feedback</p>
+      </div>
+    </div>
+
+
+</main>
+
+
+<script type="text/javascript" src="js/firebaseconfig.js"></script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+var formdata = db.ref("test2");
+
+  $('form').submit(function(e) {
+      e.preventDefault();
+
+      var newdata = {
+        "number": $("[name='number']").val(),
+        "title": $("[name='title']").val(),
+        "desc": $("[name='desc']").val(),
+        "items": {
+          "item": $("[name='item']").val(),
+          "itemid": $("[name='itemid']").val(),
+          "itemname": $("[name='itemname']").val(),
+          "itemdesc": $("[name='itemdesc']").val()
+      }
+
+      };
+
+      formdata.push().set(
+        newdata
+      ).then().catch();
+
+
+      console.log(newdata);
+      $('.feedback').show().html("Data has been added");
+      $('.addtask')[0].reset();
+      // $('form').hide();
+  });
+
+
+});
+</script>
+
+
+  </body>
+</html>

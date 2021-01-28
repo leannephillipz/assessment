@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>handlebars test</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+  </head>
+  <body>
+    <main>
+
+
+<h1>Add Student</h1>
+    <div class="container">
+      <form class="stacked " >
+
+        <fieldset>
+          <label for="name">First Name</label>
+          <input type="text" name="fname" value="" class="fname" required>
+          <label for="name">Last Name</label>
+          <input type="text" name="lname" value="" class="lname" required>
+          <label for="name">Student ID</label>
+          <input type="text" name="sid" value="" class="sid" required>
+        </fieldset>
+
+
+        <fieldset>
+          <label for="name">Level</label>
+          <input type="text" name="level" value="" class="level" placeholder="1,2,3" required>
+          <label for="name">Year</label>
+          <input type="text" name="year" value="" class="year" placeholder="1/2" required>
+          <label for="name">Group</label>
+          <input type="text" name="group" value="" class="group" placeholder="a,b,c..." required>
+        </fieldset>
+
+        <label for="name">Flag</label>
+        <select class="" name="">
+          <option value="">Select...</option>
+          <option value="EHCP">EHCP</option>
+          <option value="EHCP">Self Disclosure</option>
+          <option value="EHCP">Other Support needs</option>
+        </select>
+        <label for="note">Note</label>
+        <textarea name="note" rows="8" cols="80" class="note" ></textarea>
+        <input type="submit" name="" value="Add" class="priority">
+      </form>
+      <div class="feedback">
+        <p>Feedback</p>
+      </div>
+    </div>
+
+
+</main>
+
+
+<script type="text/javascript" src="js/script.js">
+
+</script>
+
+<script type="text/javascript" src="js/firebaseconfig.js"></script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+
+  var formdata = db.ref("test");
+
+  $('form').submit(function(e) {
+      e.preventDefault();
+
+      var newstudentdata = {
+        "fname": $("[name='fname']").val(),
+        "lname": $("[name='lname']").val(),
+        "sid": $("[name='sid']").val(),
+        "level": $("[name='level']").val(),
+        "year": $("[name='year']").val(),
+        "group": $("[name='group']").val(),
+        "notes": $("[name='notes']").val(),
+      };
+      console.log(newstudentdata);
+      $('.feedback').show().html("Student has been added");
+      $('.addstudent')[0].reset();
+      // $('form').hide();
+
+
+
+      formdata.push().set(
+        newstudentdata
+      ).then().catch();
+
+  });
+
+
+
+
+
+
+});
+
+</script>
+
+
+  </body>
+</html>

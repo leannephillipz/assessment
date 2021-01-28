@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "fname": "bugs",
+      "lname": "bunny",
+      "sid": "0123456",
+      "shortcode": "bugs",
+      "level": 3,
+      "year": 1,
+      "notes": ["note1", "note2"],
+      "grades": {
+          "unit1": "referral",
+          "unit2": "pass",
+          "unit3": "good",
+          "unit4": "excellent"
+      }
+    },
+    {
+      "fname": "daffy",
+      "lname": "duck",
+      "sid": "6478910",
+      "shortcode": "daffy",
+      "level": 3,
+      "year": 1,
+      "notes": ["note1", "note2"],
+      "grades":
+        {
+          "unit1": "referral",
+          "unit2": "pass",
+          "unit3": "good",
+          "unit4": "excellent"
+        }
+
+    },
+    {
+      "fname": "micky",
+      "lname": "mouse",
+      "sid": "11121314",
+      "shortcode": "micky",
+      "level": 3,
+      "year": 1,
+      "notes": ["note1", "note2"],
+      "grades": {
+          "unit1": "referral",
+          "unit2": "pass",
+          "unit3": "good",
+          "unit4": "excellent"
+      }
+    }
+
+  ]
+}

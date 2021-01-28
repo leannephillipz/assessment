@@ -1,0 +1,195 @@
+{
+   "units":[
+      {
+         "unit":"Unit 1",
+         "items":[
+            {
+               "unit":"1.1",
+               "outcome":"1. Understand processes and technical skills used in creative media production.",
+               "criteria":"Apply understanding of a range of processes to support media activities.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have applied a suitable level of understanding to a range of skills during this project and produced a satisfactory amount of work. I can see some improvement throughout the project.",
+               "Good":"You have applied a good level of understanding to a range of skills during this project and produced a consistent amount of work. I can see improvement throughout the project.",
+               "Excellent":"You have applied an excellent level of understanding to a range of skills during this project and produced a professional amount of work. I can see a substantial improvement throughout the project."
+            },
+            {
+               "unit":"1.2",
+               "outcome":"?",
+               "criteria":"Apply media processes and skills safely and appropriately.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have identified and followed health and safety precautions.",
+               "Good":"You have clearly identified and followed health and safety precautions.",
+               "Excellent":"You have clearly identified and followed health and safety precautions."
+            },
+            {
+               "unit":"2.2",
+               "outcome":"2. Understand the characteristics and methods of communication within a media context.",
+               "criteria":"Critically compare a range of communication methods used to convey meaning in creative media production.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have evaluated and annotated your research, planning and development suitably and shown some development in your practical ability as a result.",
+               "Good":"You have evaluated and annotated your research, planning and development and shown good improvements in your practical ability as a result.",
+               "Excellent":"You have evaluated and annotated your research, planning and development and shown excellent improvements in your practical ability as a result."
+            }
+         ]
+      },
+      {
+         "unit":"Unit 2",
+         "items":[
+            {
+               "unit":"1.1",
+               "outcome":"1. Understand design and research tools, methods and skills used in creative media production.",
+               "criteria":"Critically compare a range of research tools, methods and skills.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have defined and explained different research and Design skills and methods to a satisfactory level.",
+               "Good":"You have defined and explained different research and Design skills and methods to a good level.",
+               "Excellent":"You have defined and explained different research and Design skills and methods to an excellent level."
+            },
+            {
+               "unit":"2.1",
+               "outcome":"2. Understand primary and secondary research sources.",
+               "criteria":"Critically compare a range of primary and secondary research sources.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"Your comparison of the research sources was suitable with some considerations and comparisons made.",
+               "Good":"Your comparison of the research sources was good with some considerations and comparisons made.",
+               "Excellent":"Your comparison of the research sources was excellent with detailed considerations and comparisons made."
+            },
+            {
+               "unit":"3.1",
+               "outcome":"3. Be able to use design and research tools, methods and skills to inform ideas for creative media production.",
+               "criteria":"Apply design and research tools, methods and skills to record and interpret information and develop ideas for creative production.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have applied design and research tools and methods to a satisfactory level by researching and developing ideas for a series of design outcomes.",
+               "Good":"You have applied design and research tools and methods to a good level by researching and developing some interesting ideas for a series of design outcomes.",
+               "Excellent":"You have applied design and research tools and methods to an excellent level by researching and developing some unique ideas for a series of design outcomes."
+            },
+            {
+               "unit":"3.2",
+               "outcome":"??",
+               "criteria":"Evaluate the effectiveness of design and research tools methods and skills to develop ideas for creative production.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"Your comparison of the research & design methods and skills was suitable with a number of considerations and comparisons made.",
+               "Good":"Your comparison of the research & design methods and skills was good with a number of considerations and comparisons made.",
+               "Excellent":"Your comparison of the research & design methods and skills was excellent with a number of considerations and comparisons made."
+            }
+         ]
+      },
+      {
+         "unit":"Unit 3",
+         "items":[
+            {
+               "unit":"1.1",
+               "outcome":"1. Understand progression opportunities within the creative media sector.",
+               "criteria":"Locate, access and use information to support own development.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"Satisfactory location, access and use of games industry job research which shows an understanding of progression opportunities.",
+               "Good":"Good location, access and use of games industry job research which shows an understanding of progression opportunities.",
+               "Excellent":"Excellent location, access and use of games industry job research which shows an understanding of progression opportunities."
+            },
+            {
+               "unit":"2.1",
+               "outcome":"2. Understand the skills needed to pursue a career in the creative media sector.",
+               "criteria":"Critically evaluate a range of working practices and methods.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"Satisfactory critical evaluation and understanding of skills needed for a job within the games industry.",
+               "Good":"Good critical evaluation and understanding of skills needed for a job within the games industry. ",
+               "Excellent":"Excellent critical evaluation and thorough understanding of skills needed for a job within the games industry."
+            },
+            {
+               "unit":"2.2",
+               "outcome":"??",
+               "criteria":"Apply knowledge of working practices to support own development.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You have used a satisfactory level of knowledge from the skills sessions to explore and develop suitable ideas for a series of design outcomes.",
+               "Good":"You have used a good level of knowledge from the skills sessions to explore and develop informed ideas for a series of design outcomes.",
+               "Excellent":"You have used an excellent level of knowledge from the skills sessions to explore and develop imaginative ideas for a series of design outcomes."
+            },
+            {
+               "unit":"3.1",
+               "outcome":"3. Be able to carry out roles and responsibilities consistent with professional practice.",
+               "criteria":"Organise self and work to meet deadlines and targets.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"All work was handed in on time and all tasks were completed to a satisfactory standard.",
+               "Good":"All work was handed in on time and all tasks were completed to a good standard.",
+               "Excellent":"All work was handed in on time and all tasks were completed to an excellent standard."
+            },
+            {
+               "unit":"3.2",
+               "outcome":"??",
+               "criteria":"Demonstrate consideration and professionalism in working with others.",
+               "Task Ref":"",
+               "Referral":"Insufficient evidence has been provided.",
+               "Pass":"You worked well during all group activities and provided suitable feedback during the numerous peer review opportunities.",
+               "Good":"You worked well during all group activities and provided good feedback during the numerous peer review opportunities.",
+               "Excellent":"You worked well during all group activities and provided excellent feedback during the numerous peer review opportunities."
+            }
+         ]
+      },
+      {
+         "unit":"Unit 4",
+         "items": [
+           {
+              "unit":"1.1",
+              "outcome":"1. Understand critical perspectives that influence the analysis of creative media production.",
+              "criteria":"Compare a range of critical perspectives that influence the analysis of creative media production activities.",
+              "Task Ref":"",
+              "Referral":"Insufficient evidence has been provided.",
+              "Pass":"You have shown satisfactory evidence that you have understood and compared a range of critical perspectives that influence games development including violence, equality and diversity and the representation of minorities.",
+              "Good":"You have shown good evidence that you have understood and compared a range of critical perspectives that influence games development including violence, equality and diversity and the representation of minorities.",
+              "Excellent":"You have shown excellent evidence that you have understood and compared a range of critical perspectives that influence games development including violence, equality and diversity and the representation of minorities."
+           },
+           {
+              "unit":"1.2",
+              "outcome":"?",
+              "criteria":"Apply knowledge of critical perspectives to the analysis of a range of creative media production activities.",
+              "Task Ref":"",
+              "Referral":"Insufficient evidence has been provided.",
+              "Pass":"You have shown a satisfactory knowledge and understanding of violence, equality and diversity and the representation of minorities by looking at the representation of characters.",
+              "Good":"You have shown a good knowledge and understanding of violence, equality and diversity and the representation of minorities by looking at the representation of characters.",
+              "Excellent":"You have shown excellent knowledge and understanding of violence, equality and diversity and the representation of minorities by looking at the representation of characters."
+           },
+           {
+              "unit":"1.3",
+              "outcome":"?",
+              "criteria":"Apply knowledge and understanding of critical perspectives to support own practice.",
+              "Task Ref":"",
+              "Referral":"Insufficient evidence has been provided.",
+              "Pass":"You have tried to consider critical perspectives whilst creating your work enabling you to produce assets and products which fit the audience they are designed for in some areas. ",
+              "Good":"You have clearly considered critical perspectives whilst creating your work enabling you to produce assets and products fit for the audience they are designed for. ",
+              "Excellent":"You have very clearly considered critical perspectives whilst creating your work enabling you to produce assets and products fit for the audience they are designed for."
+           },
+           {
+              "unit":"2.1",
+              "outcome":"2. Understand the contexts within which creative media technology and production are positioned.",
+              "criteria":"Critically compare a range of contexts within which creative media technology and production are situated.",
+              "Task Ref":"",
+              "Referral":"Insufficient evidence has been provided.",
+              "Pass":"You have shown a satisfactory knowledge and understanding of violence, equality and diversity and the representation of minorities by critically comparing 3 games.",
+              "Good":"You have shown a good knowledge and understanding of violence, equality and diversity and the representation of minorities by critically comparing 3 games.",
+              "Excellent":"You have shown excellent knowledge and understanding of violence, equality and diversity and the representation of minorities by critically comparing 3 games."
+           },
+           {
+              "unit":"2.2",
+              "outcome":"?",
+              "criteria":"Apply an understanding of a range of contextual parameters to support own creative development.",
+              "Task Ref":"",
+              "Referral":"Insufficient evidence has been provided.",
+              "Pass":"You have tried to consider critical perspectives whilst creating your work enabling you to produce assets and products which fit the audience they are designed for in some areas. ",
+              "Good":"You have clearly considered critical perspectives whilst creating your work enabling you to produce assets and products fit for the audience they are designed for. ",
+              "Excellent":"You have very clearly considered critical perspectives whilst creating your work enabling you to produce assets and products fit for the audience they are designed for."
+           }
+         ]
+      }
+
+   ]
+}

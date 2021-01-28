@@ -1,0 +1,92 @@
+Needs to be updated
+
+[
+  {
+    "Unit": "Unit 1",
+    "Assessment":[
+      {
+        "Unit": "1.1",
+        "Criteria": "Apply understanding of a range of processes to support media activities."
+      },
+      {
+        "Unit": "1.2",
+        "Criteria": "Apply media processes and skills safely and appropriately."
+      },
+      {
+        "Unit": "2.2",
+        "Criteria": "Critically compare a range of communication methods used to convey meaning in creative media production."
+      }
+    ]
+  },
+  {
+    "Unit": "Unit 2",
+    "Assessment": [
+      {
+        "Unit": "1.1",
+        "Criteria": "Critically compare a range of research tools, methods and skills."
+      },
+      {
+        "Unit": "2.1",
+        "Criteria": "Critically compare a range of primary and secondary research sources."
+      },
+      {
+        "Unit": "3.1",
+        "Criteria": "Apply design and research tools, methods and skills to record and interpret information and develop ideas for creative production."
+      },
+      {
+        "Unit": "3.2",
+        "Criteria": "Evaluate the effectiveness of design and research tools methods and skills to develop ideas for creative production."
+      }
+    ]
+  },
+  {
+    "Unit": "Unit 3",
+    "Assessment": [
+      {
+        "Unit": "1.1",
+        "Criteria": "Locate, access and use information to support own development."
+      },
+      {
+        "Unit": "2.1",
+        "Criteria": "Critically evaluate a range of working practices and methods."
+      },
+      {
+        "Unit": "2.2",
+        "Criteria": "Apply knowledge of working practices to support own development."
+      },
+      {
+        "Unit": "3.1",
+        "Criteria": "Organise self and work to meet deadlines and targets."
+      },
+      {
+        "Unit": "3.2",
+        "Criteria": "Demonstrate consideration and professionalism in working with others."
+      }
+    ]
+  },
+  {
+    "Unit": "Unit 4",
+    "Assessment": [
+      {
+        "Unit": "1.1",
+        "Criteria": "Compare a range of critical perspectives that influence the analysis of creative media production activities."
+      },
+      {
+        "Unit": "1.2",
+        "Criteria": "Apply knowledge of critical perspectives to the analysis of a range of creative media production activities."
+      },
+      {
+        "Unit": "1.3",
+        "Criteria": "Apply knowledge and understanding of critical perspectives to support own practice."
+      },
+      {
+        "Unit": "2.1",
+        "Criteria": "Critically compare a range of contexts within which creative media technology and production are situated."
+      },
+      {
+        "Unit": "2.2",
+        "Criteria": "Apply an understanding of a range of contextual parameters to support own creative development."
+      }
+    ]
+  }
+]

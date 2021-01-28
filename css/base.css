@@ -1,0 +1,164 @@
+body {
+    font-family: var(--typeface);
+    color: #333;
+	background-color:#fff;
+    font-size:18px;
+}
+
+.fillscreen {
+    height:100vh;
+    width:auto;
+}
+
+header {
+    min-height:50vh;
+    background:var(--color1);
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	max-width: 1080px;
+	padding: 3em;
+	box-sizing: border-box;
+}
+
+
+
+/* nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav ul li {display:inline;}
+nav a { padding:.3em;}
+
+
+
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {list-style: disc outside;}
+ol {list-style: decimal inside;}
+
+ol, ul {
+    list-style: none outside; display:inline; margin: 0; padding: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    font-size: 90%;
+}
+dd {
+  margin-left: 0;
+}
+
+
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a { color:var(--link); text-decoration:none; }
+main p a {text-decoration:underline;}
+
+a:hover {color:var(--hover);}
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p {
+    line-height: 1.5;
+}
+
+
+strong, b {
+}
+
+em {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+    margin: 1em 0 15px;
+    padding: 0;
+    font-weight: bold;
+    line-height: 1.7;
+    cursor: text;
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+
+h1 {
+    font-size: 2.5em;
+    margin: .67em 0;
+    border-bottom: 1px solid #ccc;}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #eee;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5, h6 {
+  font-size: 1em;
+}
+
+
+
+
+@media (max-width: 800px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+	font-size: 1.2em;
+    }
+    h1 {font-size: 3em;}
+    h2 {font-size: 1.5em;}
+    h3, h4, h5, h6 {font-size: 1.2em;}
+}
+
+
+
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.mobile {display: none;}
+@media (max-width: 800px) {
+	.mobile {display: block;}
+}
+
+
+
+
+
+/* Larger than phablet */
+/*@media (min-width: 550px) {
+*/
