@@ -1,0 +1,102 @@
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+    /* table-layout: fixed; */
+}
+
+
+
+caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #6c757d;
+  text-align: left;
+}
+
+th {
+  text-align: inherit;
+  text-align: -webkit-match-parent;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+th {
+  font-weight: normal;
+  padding: .5rem .5rem;
+}
+
+tr {
+  border-bottom: #d0d0d0 solid 1px;
+}
+
+td {
+    padding: .5rem .5rem;
+}
+
+
+/* table > tbody > tr:nth-of-type(odd) {
+  background: #000;
+    color: white;
+} */
+
+/* .table>:not(caption) > * > * {
+  padding: .5rem .5rem;
+  border-bottom: #000 solid 1px;
+} */
+
+/* table .data td, table .data th{
+  width:50px;
+} */
+
+
+/* .hrow th:nth-child(n+6):nth-child(-n+13),
+.row td:nth-child(n+6):nth-child(-n+13) {
+  background: gray;
+  width:50px;
+  text-align: center;
+} */
+
+.row > *:last-child{
+  text-align:right;
+}
+
+.row div {
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      border: solid 1px #d0d0d0;
+      padding: .2em;
+      text-align: center;
+      margin-right:.2em;
+}
+
+thead .hrow {
+  background-color: #d0d0d0;
+}
+.hrow div {
+  border: solid 1px #000;
+}
+
+
+.grade0 {
+  background-color: red;
+  color:#fff;
+}
+.grade1,.grade2, .grade3 {
+  background-color: green;
+  color:#fff;
+}

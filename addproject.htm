@@ -23,14 +23,6 @@
         <input type="text" name="title" value="" required>
         <label for="note">Description</label>
         <textarea name="desc" rows="8" cols="80" class="note"></textarea>
-        <label for="name">Item</label>
-        <input type="text" name="item" value="" crequired>
-        <label for="name">ID</label>
-        <input type="text" name="itemid" value="3" required>
-        <label for="name">Item Title</label>
-        <input type="text" name="itemname" value="" required>
-        <label for="name">Item Description</label>
-        <textarea name="itemdesc" rows="8" cols="80" class="note"></textarea>
         <input type="submit" name="" value="Add">
       </form>
       <div class="feedback">
@@ -46,7 +38,7 @@
 
 <script type="text/javascript">
 $( document ).ready(function() {
-var formdata = db.ref("tasks");
+var formdata = db.ref("projects");
 
   $('form').submit(function(e) {
       e.preventDefault();
@@ -54,14 +46,7 @@ var formdata = db.ref("tasks");
       var newdata = {
         "number": $("[name='number']").val(),
         "title": $("[name='title']").val(),
-        "desc": $("[name='desc']").val(),
-        "items": {
-          "item": $("[name='item']").val(),
-          "itemid": $("[name='itemid']").val(),
-          "itemname": $("[name='itemname']").val(),
-          "itemdesc": $("[name='itemdesc']").val()
-      }
-
+        "desc": $("[name='desc']").val()
       };
 
       formdata.push().set(

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>handlebars test</title>
+    <link rel="stylesheet" href="/css/normalise.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -13,9 +16,18 @@
     <noscript>
       You must have javascript enabled to use this app.
     </noscript>
-    <main>
 
 
+      <main class="form-signin">
+        <form>
+          <h1 >Please sign in</h1>
+          <label for="inputEmail" class="">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <label for="inputPassword" >Password</label>
+          <input type="password" id="inputPassword" placeholder="Password" required>
+          <button class="" type="submit">Sign in</button>
+          <p class="feedback">feedback</p>
+        </form>
 
 </main>
   </body>

@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>handlebars test</title>
-      <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalise.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/form.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +28,11 @@
     </div>
       </div>
       {{/each}}
-
+      {{#if units.length}}
+      <p>Total: {{ units.length }} students.</p>
+        {{else}}
+      <p>There is *ERROR* {{ units.length }} </p>
+      {{/if}}
     </script>
 
 

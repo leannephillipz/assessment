@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>handlebars test</title>
+    <link rel="stylesheet" href="/css/normalise.css">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -56,16 +57,13 @@
 </main>
 
 
-<script type="text/javascript" src="js/script.js">
-
-</script>
 
 <script type="text/javascript" src="js/firebaseconfig.js"></script>
 
 <script type="text/javascript">
 $( document ).ready(function() {
 
-  var formdata = db.ref("test");
+  var formdata = db.ref("students");
 
   $('form').submit(function(e) {
       e.preventDefault();
@@ -77,11 +75,11 @@ $( document ).ready(function() {
         "level": $("[name='level']").val(),
         "year": $("[name='year']").val(),
         "group": $("[name='group']").val(),
-        "notes": $("[name='notes']").val(),
+        "notes": $("[name='note']").val(),
       };
       console.log(newstudentdata);
       $('.feedback').show().html("Student has been added");
-      $('.addstudent')[0].reset();
+      // $('.addstudent')[0].reset();
       // $('form').hide();
 
 

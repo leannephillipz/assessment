@@ -1,3 +1,5 @@
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyAunon-rdzhazG4EYIM5_fRXIQh7JVRM-A",
   authDomain: "assessment-2f428.firebaseapp.com",
@@ -11,3 +13,15 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 var db = firebase.database();
+
+
+// if (!firebase.app.length) {
+//   console.log("nope");
+//    firebase.initializeApp(firebaseConfig);
+// } else {
+//   console.log("ready to go");
+//
+//    // firebase.app(); // if already initialized, use that one
+// }
+//
+// var db = firebase.database();
